@@ -27,6 +27,8 @@ lenis.on("scroll", (scroll) => {
   images.forEach((image) => {
     const { top } = image.getBoundingClientRect();
     const scale = scaleToScroll(top, 1, 1.6);
+    const opacity = scaleToScroll(top, 1, 0.5);
     image.style.transform = `scale(${scale})`;
+    image.style.opacity = opacity;
   });
 });

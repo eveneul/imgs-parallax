@@ -111,6 +111,8 @@
       // transform: scale(1.6);
       // transition-duration: 2.71s;
       transition: none;
+
+      &:hover {}
     }
 
     &.in-view-from-bottom {
