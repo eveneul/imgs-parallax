@@ -71,16 +71,16 @@
 }
 
 #mask .large img {
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%);
+          clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%);
 }
 #mask .large.in-view-from-bottom img {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 #mask .img-box:not(.large) img {
-  -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
-          clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+  -webkit-clip-path: polygon(70% 0, 0 0, 0 100%, 70% 100%);
+          clip-path: polygon(70% 0, 0 0, 0 100%, 70% 100%);
 }
 #mask .img-box:not(.large).in-view-from-bottom img {
   -webkit-clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);

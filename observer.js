@@ -3,7 +3,7 @@ class Observer {
     this.config = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.5,
+      threshold: 0.3,
     };
     this.instance = new IntersectionObserver((entries, observer) => {
       this.onUpdate(entries, observer);
