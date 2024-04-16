@@ -89,4 +89,5 @@
 
 #parallax .img-box img {
   transition: none;
+  opacity: 0;
 }/*# sourceMappingURL=style.css.map */
